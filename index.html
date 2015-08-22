@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+ </head>
+ <body onload="start();">
+     <div id="container">
+
+         <div id="interface">
+             <div class="buttonL">
+                 <div><input type="submit" value="Wpłata" class="buttonLi" id="depositButton" onclick="actionListener('deposit');"></div>
+                 <div><input type="submit" value="Wypłata" class="buttonLi" id="withdrawButton" onclick="actionListener('withdraw');"></div>
+             </div>
+
+             <div id="screen">
+             </div>
+             <div class="buttonR">
+                 <div><input type="submit" value="Stan konta" class="buttonRi" id="accountCheckButton" onclick="actionListener('accountStatus');"></div>
+                 <div><input type="submit" value="Wyjdź" class="buttonRi" id="exitButton" onclick="actionListener('exit');"></div>
+             </div>
+         </div>
+            <div style="clear: both;"></div>
+         <div class="keyboard">
+             <div><input type="button" class="numKey" id="key7" value="7" onclick="digitListener(this.value);"></div>
+             <div><input type="button" class="numKey" id="key8" value="8" onclick="digitListener(this.value);"></div>
+             <div><input type="button" class="numKey" id="key9" value="9" onclick="digitListener(this.value);"></div>
+                <div style="clear: both;"></div>
+             <div><input type="button" class="numKey" id="key4" value="4" onclick="digitListener(this.value);"></div>
+             <div><input type="button" class="numKey" id="key5" value="5" onclick="digitListener(this.value);"></div>
+             <div><input type="button" class="numKey" id="key6" value="6" onclick="digitListener(this.value);"></div>
+                <div style="clear: both;"></div>
+             <div><input type="button" class="numKey" id="key1" value="1" onclick="digitListener(this.value);"></div>
+             <div><input type="button" class="numKey" id="key2" value="2" onclick="digitListener(this.value);"></div>
+             <div><input type="button" class="numKey" id="key3" value="3" onclick="digitListener(this.value);"></div>
+                <div style="clear: both;"></div>
+             <div><input type="button" class="numKey" id="key0" value="0" onclick="digitListener(this.value);"></div>
+             <div><input type="button" id="keyDelete" value="<-" onclick="digitListener('delete');"></div>
+                <div style="clear: both;"></div>
+             <div><input type="submit" id="keyOk" value="OK" onclick="actionListener('keyOk');"></div>
+             <div><input type="submit" id="keyCancel" value="Anuluj"></div>
+         </div>
+
+         <div class="slot">
+             <div><input type="submit" id="cardSlot" value="card" onclick="actionListener('insertCard');"></div>
+             <div id="moneySlot">:</div>
+         </div>
+            <div style="clear: both;"></div>
+     </div>
+
+
+
+ </body>
+ </html>

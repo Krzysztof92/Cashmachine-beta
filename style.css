@@ -1,0 +1,157 @@
+body
+{
+    background-color: #81848F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container
+{
+    border: 2px solid yellow;
+    margin: 10%;
+    padding-left: 2%;
+    height: 400px;
+    width: 500px;
+}
+
+#interface
+{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.buttonL
+{
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+input.buttonLi
+{
+    color: #00C217;
+}
+
+#withdrawButton
+{
+    margin-top: 37px;
+}
+
+#screen
+{
+    float: left;
+    border: 2px solid black;
+    height: 150px;
+    width: 275px;
+    background-color: white;
+}
+
+.buttonR
+{
+    float: left;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+input.buttonRi
+{
+    color: red;
+}
+
+#exitButton
+{
+    margin-top: 37px;
+}
+
+.keyboard
+{
+    float: left;
+    border: 2px solid red;
+    width: 106px;
+    height: 141px;
+}
+
+input.numKey
+{
+    color: black;
+    float:left;
+    margin: 1px;
+}
+
+input#key0
+{
+    float: left;
+    width: 64px;
+}
+
+input#keyDelete
+{
+    float: left;
+    color: red;
+    width: 32px;
+    margin-top: 1px;
+}
+
+input#keyOk
+{
+    color: green;
+    float: left;
+    margin-top: 10px;
+    width: 40px;
+}
+
+input#keyCancel
+{
+    float: left;
+    color: red;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.slot
+{
+    float: left;
+    margin-left: 200px;
+}
+
+#moneySlot
+{
+    margin-top: 10px;
+    background-color: white;
+    width: 100px;
+}
+
+.menu{
+    border: 1px solid black;
+    width: 60px;
+    position: relative;
+    z-index: 0;
+    /*margin-right: -100px;*/
+   /* display: none;*/
+}
+
+#depositHint{
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#statusHint{
+    float: right;
+    margin-top: 20px;
+    text-align: right;
+}
+
+#withdrawHint{
+    float: left;
+    margin-top: 40px;
+    text-align: left;
+}
+
+#exitHint{
+    float: right;
+    margin-top: 40px;
+    text-align: right;
+}
